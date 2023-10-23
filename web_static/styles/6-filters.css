@@ -1,0 +1,112 @@
+section.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section.filters button {
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+section.filters button:hover {
+    opacity: .9;
+}
+
+section.filters div.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+}
+
+section.filters div.locations:hover > ul.popover {
+    display: block;
+}
+
+section.filters div.locations h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-left: 40px;
+}
+
+section.filters div.locations h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+section.filters div.locations ul.popover{
+    display: none;
+    background-color: #FAFAFA;
+    width: 100%;
+    list-style-type: none;
+    padding-inline-start: 20px;
+    padding-top: 20px;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    position: relative;
+    z-index: 999;
+}
+
+section.filters div.locations ul.popover > li {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+section.filters div.locations ul.popover li ul{
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+section.filters div.locations ul.popover li ul li{
+    font-weight: normal;
+}
+
+section.filters div.amenities {
+    height: 100%;
+    width: 25%;
+}
+
+section.filters div.amenities h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-left: 40px;
+}
+
+section.filters div.amenities h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+section.filters div.amenities:hover > ul.popover{
+    display: block;
+}
+
+section.filters div.amenities ul.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: 100%;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+}
